@@ -1,0 +1,32 @@
+.center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    width: 100vw;
+    background-color: aqua;
+
+}
+
+input{
+    border: 2px solid violet;
+    border-radius: 10px;;
+    height:5vh;
+    padding:5px;   
+    margin-bottom: 5px;; 
+}
+
+button{
+    border: 2px solid rgb(130, 238, 135);
+    border-radius: 10px;;
+    height:5vh;
+    width: 20vw;
+    margin-bottom:10px;
+    background-color: chartreuse;
+}
+
+.display-name{
+    background-color: rgb(185, 230, 231);
+    color:darkgreen
+}

@@ -1,0 +1,9 @@
+<div class="input-container center">
+  <input type="text" placeholder="first name" #name>
+   <input type="text" placeholder="middle name" #name>
+   <input type="text" placeholder="last name" #name>
+  <!-- <button type="button" (click)="onClickDisplayFirstName()">Show First Name</button>
+  <h2 class="display-name" *ngIf="title!==''">{{title}}</h2> -->
+  <button type="button" (click)="onClickDisplayFullName()">Show Full Name</button>
+  <h2 class="display-name" *ngIf="title!==''">{{title}}</h2>
+</div>
